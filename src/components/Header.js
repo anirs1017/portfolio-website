@@ -40,14 +40,14 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
+          <a className="navbar-brand" href="#">
             {config.siteTitle}
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
               openMenu ? '' : 'collapsed'
-            }`}
+              }`}
             type="button"
             aria-controls="navbarResponsive"
             aria-expanded={openMenu}
@@ -76,6 +76,39 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
+                  element="stuff"
+                >
+                  <a className="nav-link" href="#">
+                  Stuff I do
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="skills"
+                >
+                  <a className="nav-link" href="#">
+                    Skills
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="experience"
+                >
+                  <a className="nav-link" href="#">
+                  Experience
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
                   element="projects"
                 >
                   <a className="nav-link" href="#projects">
@@ -87,9 +120,42 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="signup"
+                  element="publication"
                 >
-                  <a className="nav-link" href="#signup">
+                  <a className="nav-link" href="#">
+                  Publication
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="activities"
+                >
+                  <a className="nav-link" href="#">
+                  Activities
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="interests"
+                >
+                  <a className="nav-link" href="#">
+                  Interests
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="contact-me"
+                >
+                  <a className="nav-link" href="#contact-me">
                     Contact
                   </a>
                 </Scroll>

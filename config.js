@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Grayscale', // <title>
+  siteTitle: 'A.S', // <title>
   manifestName: 'Grayscale',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
+  heading: 'Aniruddha Sinha',
   subHeading: 'Full time Web Developer. Part time Open source contributor  ',
 
   // social
@@ -16,12 +16,12 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://octoprofile.now.sh/user?id=aniruddhasinha10',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://www.linkedin.com/in/asinha6/',
     },
     {
       icon: 'fa-twitter',
@@ -34,7 +34,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'asinha6@buffalo.edu',
+  phone: '+1 (716) 544-8716',
+  address: 'XYZ-2, Buffalo, NY',
 };
