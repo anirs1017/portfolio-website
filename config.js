@@ -23,15 +23,15 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/asinha6/',
     },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
+    // {
+    //   icon: 'fa-twitter',
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/onlyanubhav',
+    // },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/profile.php?id=100001243982304',
     },
   ],
   email: 'asinha6@buffalo.edu',

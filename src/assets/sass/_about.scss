@@ -4,4 +4,14 @@
   p {
     margin-bottom: 5rem;
   }
+  .about-img{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card-img{
+      width: 300px;
+      border-radius: 300px;
+    }
+  }
 }
