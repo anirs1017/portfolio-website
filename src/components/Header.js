@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+import logo from '../assets/images/logo1.png';
+
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -41,7 +43,7 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#">
-            {config.siteTitle}
+            <img className="logo" src={logo}></img>
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
@@ -60,7 +62,7 @@ export default class Header extends Component {
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
             id="navbarResponsive"
           >
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
@@ -131,10 +133,10 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="activities"
+                  element="leadership"
                 >
-                  <a className="nav-link" href="#">
-                  Activities
+                  <a className="nav-link" href="#leadership">
+                  Leadership
                   </a>
                 </Scroll>
               </li>
@@ -145,7 +147,7 @@ export default class Header extends Component {
                   element="interests"
                 >
                   <a className="nav-link" href="#">
-                  Interests
+                  Recommendations
                   </a>
                 </Scroll>
               </li>

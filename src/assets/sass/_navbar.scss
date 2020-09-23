@@ -1,5 +1,6 @@
 #mainNav {
   min-height: 56px;
+  width: 100%;
   background-color: $white;
   .navbar-toggler {
     font-size: 80%;
@@ -13,9 +14,13 @@
   .navbar-brand {
     color: $black;
     font-weight: 700;
-    padding: .9rem 0;
+    padding: 0.9rem 0;
+    .logo {
+      width: 30px;
+    }
   }
   .navbar-nav {
+    margin: 1.2rem 0rem;
     .nav-item {
       &:hover {
         color: fade(white, 80%);
@@ -36,15 +41,15 @@
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
     .navbar-brand {
-      padding: .5rem 0;
-      color: fade-out($white, .5);
+      padding: 0.5rem 0;
+      color: fade-out($white, 0.5);
     }
     .nav-link {
       transition: none;
-      padding: 2rem 1.5rem;
-      color: fade-out($white, .5);
+      padding-right: 1.5rem;
+      color: fade-out($white, 0.5);
       &:hover {
-        color: fade-out($white, .25);
+        color: fade-out($white, 0.25);
       }
       &:active {
         color: white;
@@ -57,7 +62,7 @@
       }
       .nav-link {
         color: $black;
-        padding: 1.5rem 1.5rem 1.25rem;
+        padding-right: 1.5rem;
         border-bottom: 0.25rem solid transparent;
         &:hover {
           color: $primary;

@@ -4,7 +4,7 @@ import config from '../../config';
 export default function Skills() {
     return (
         <section className="contact-section bg-black" id="skills">
-            <div className="container text-center">
+            <div className="text-center container-fluid">
                 <h2 className="text-white mb-5">My Skills</h2>
                 <div className="row">
                     <div className="col-md-3 mb-2 mb-md-0">
