@@ -1,14 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
-import demoImage1 from '../assets/images/leadership.jpg';
-import demoImage2 from '../assets/images/volunteering.jpg';
+import demoImage1 from '../assets/images/Leadership.jpg';
+import demoImage2 from '../assets/images/Volunteering.jpg';
 import profile from '../assets/images/about-me.jpeg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
 import Skills from '../components/Skills';
 
 const IndexPage = () => (
