@@ -10,6 +10,9 @@ import profile from '../assets/images/about-me.jpeg';
 import Skills from '../components/Skills';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
+import Publication from '../components/publication';
+import Recommendation from '../components/Recommendation';
+import Interests from '../components/Interests';
 
 const IndexPage = () => (
   <Layout>
@@ -54,19 +57,19 @@ const IndexPage = () => (
                 <p className="text-white-50 mb-4">
                   In my free time, I like to cook, drive and travel to new and unexplored places. Photography is a very dear passion to me that has always helped me in connecting with people and exploring new cultures, giving me an opportunity to learn so much from every such interaction.
               </p>
-              <div className="container mb-5">
-                <div className="row mb-3">
-                  <div className="col-3 text-white-50">Name :</div>
-                  <div className="col-9 text-white-50">Aniruddha Sinha</div>
-                </div>
-                <div className="row mb-3">
-                  <div className="col-3 text-white-50">Email :</div>
-                  <div className="col-9 text-white-50">asinha6@buffalo.edu</div>
-                </div>
-                <div className="row mb-4">
-                  <div className="col-3 text-white-50">Phone :</div>
-                  <div className="col-9 text-white-50">+1 (716) 544-8716</div>
-                </div>
+                <div className="container mb-5">
+                  <div className="row mb-3">
+                    <div className="col-3 text-white-50">Name :</div>
+                    <div className="col-9 text-white-50">Aniruddha Sinha</div>
+                  </div>
+                  <div className="row mb-3">
+                    <div className="col-3 text-white-50">Email :</div>
+                    <div className="col-9 text-white-50">asinha6@buffalo.edu</div>
+                  </div>
+                  <div className="row mb-4">
+                    <div className="col-3 text-white-50">Phone :</div>
+                    <div className="col-9 text-white-50">+1 (716) 544-8716</div>
+                  </div>
                 </div>
                 <h3 className="text-white-50 mx-auto mt-2 mb-5">1.6+ years of Work Experience</h3>
               </div>
@@ -96,6 +99,7 @@ const IndexPage = () => (
     <Skills />
     <Experience />
     <Projects />
+    <Publication />
     <section id="leadership" className="projects-section bg-black">
       <div className="container">
         {/* <div className="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -114,7 +118,7 @@ const IndexPage = () => (
           </div>
         </div> */}
 
-        
+
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
@@ -169,7 +173,8 @@ const IndexPage = () => (
     </section>
 
     {/* <Subscribe /> */}
-
+    <Interests />
+    <Recommendation />
     <SocialLinks />
     <Footer />
   </Layout>

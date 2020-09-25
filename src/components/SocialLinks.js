@@ -5,19 +5,8 @@ export default function SocialLinks() {
   return (
     <section className="contact-section bg-black" id="contact-me">
       <div className="container text-center">
-      <h2 className="text-white mb-5">Contact me</h2>
+      <h2 className="text-white mb-5">Let's Connect</h2>
         <div className="row">
-          {/* <div className="col-md-4 mb-3 mb-md-0">
-            <div className="card py-4 h-100">
-              <div className="card-body text-center">
-                <i className="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 className="text-uppercase m-0">Address</h4>
-                <hr className="my-4" />
-                <div className="small text-black-50">{config.address}</div>
-              </div>
-            </div>
-          </div> */}
-
           <div className="col-md-6 mb-3 mb-md-0">
             <div className="card py-4 h-100">
               <div className="card-body text-center">
@@ -30,7 +19,6 @@ export default function SocialLinks() {
               </div>
             </div>
           </div>
-
           <div className="col-md-6 mb-3 mb-md-0">
             <div className="card py-4 h-100">
               <div className="card-body text-center">

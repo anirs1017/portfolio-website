@@ -78,17 +78,6 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="stuff"
-                >
-                  <a className="nav-link" href="#">
-                  Stuff I do
-                  </a>
-                </Scroll>
-              </li>
-              <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
                   element="skills"
                 >
                   <a className="nav-link" href="#skills">
@@ -124,7 +113,7 @@ export default class Header extends Component {
                   type="id"
                   element="publication"
                 >
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#publication">
                   Publication
                   </a>
                 </Scroll>
@@ -146,7 +135,18 @@ export default class Header extends Component {
                   type="id"
                   element="interests"
                 >
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#interests">
+                  Interests
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="recommendation"
+                >
+                  <a className="nav-link" href="#recommendation">
                   Recommendations
                   </a>
                 </Scroll>

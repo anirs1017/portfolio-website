@@ -7,7 +7,7 @@ export default function Projects() {
             <h2 className="text-center text-white mb-5">Projects</h2>
                 <div className="text-center text-white m-4">
                     For more of my work, please visit my &nbsp;
-                    <a className="link" href="https://github.com/aniruddhasinha10" target="_blank" rel="noopener noreferrer" >
+                    <a href="https://github.com/aniruddhasinha10" target="_blank" rel="noopener noreferrer" >
                         GitHub Profile</a>
                 </div>
                 <div className="row">
