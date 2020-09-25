@@ -8,6 +8,8 @@ import demoImage1 from '../assets/images/Leadership.jpg';
 import demoImage2 from '../assets/images/Volunteering.jpg';
 import profile from '../assets/images/about-me.jpeg';
 import Skills from '../components/Skills';
+import Experience from '../components/Experience';
+import Projects from '../components/Projects';
 
 const IndexPage = () => (
   <Layout>
@@ -92,6 +94,8 @@ const IndexPage = () => (
       </div>
     </section>
     <Skills />
+    <Experience />
+    <Projects />
     <section id="leadership" className="projects-section bg-black">
       <div className="container">
         {/* <div className="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -109,6 +113,8 @@ const IndexPage = () => (
             </div>
           </div>
         </div> */}
+
+        
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
