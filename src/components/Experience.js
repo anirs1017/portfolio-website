@@ -9,8 +9,8 @@ export default function Experience() {
                 <div className="row">
                     <div className="col-12 mb-5 bg-light">
                         <div className="experience m-4">
-                            <a className="link" href="https://www.linkedin.com/school/universityatbuffalo/" target="_blank" rel="noopener noreferrer" />
-                            <h4>Research Developer</h4>
+                            <a className="link" href="https://www.buffalo.edu/ai/research/laboratories-and-groups/innovation-lab/research/LEARM.html" target="_blank" rel="noopener noreferrer" />
+                            <h4>Research Programmer</h4>
                             <h6>Dept.  of Computer Science, UB</h6>
                             <h6>Jun’19 - Present</h6>
                             <div className="description">
@@ -23,7 +23,7 @@ export default function Experience() {
                     </div>
                     <div className="col-12 mb-5 bg-light">
                         <div className="experience m-4">
-                            <a className="link" href="https://www.linkedin.com/school/universityatbuffalo/" target="_blank" rel="noopener noreferrer" />
+                            <a className="link" href="https://www.buffalo.edu/ai/research/laboratories-and-groups/innovation-lab/research/Document-and-Figure-Linking.html" target="_blank" rel="noopener noreferrer" />
                             <h4>Graduate Assistant</h4>
                             <h6>Artificial Intelligence Innovation Laboratory (A2IL), UB</h6>
                             <h6>Jan’19 - Jan’20</h6>

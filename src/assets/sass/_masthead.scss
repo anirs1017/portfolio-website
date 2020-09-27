@@ -22,14 +22,14 @@
     letter-spacing: 0.8rem;
     background: -webkit-linear-gradient(
       fade-out(white, 0.1),
-      fade-out(white, 1)
+      fade-out(white, 0.5)
     );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
   h2 {
     max-width: 20rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   @media (min-width: 768px) {
     h1 {
@@ -46,7 +46,7 @@
       letter-spacing: 0.8rem;
     }
     h2 {
-      max-width: 30rem;
+      max-width: 50rem;
       font-size: 1.25rem;
     }
   }

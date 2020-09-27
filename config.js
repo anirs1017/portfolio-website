@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/A.S/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Aniruddha Sinha',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  subHeading: 'Software Developer | Python Enthusiast | Photographer | Full-time Explorer',
 
   // social
   socialLinks: [
@@ -23,18 +23,18 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/asinha6/',
     },
-    // {
-    //   icon: 'fa-twitter',
-    //   name: 'Twitter',
-    //   url: 'https://twitter.com/onlyanubhav',
-    // },
+    {
+      icon: 'fa-youtube',
+      name: 'Youtube',
+      url: 'https://www.youtube.com/user/anu5128/videos?view_as=subscriber',
+    },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
       url: 'https://www.facebook.com/profile.php?id=100001243982304',
     },
   ],
-  email: 'asinha6@buffalo.edu',
+  email: 'aniruddha.sinha096@gmail.com',
   phone: '+1 (716) 544-8716',
   address: 'XYZ-2, Buffalo, NY',
 };

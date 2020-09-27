@@ -1,7 +1,6 @@
 import React from 'react';
 import cict from '../assets/images/CICT-paper.jpg';
-import iccca from '../assets/images/ICCCA-paper.jpg';
-import springer from '../assets/images/Springer-Paper.jpg';
+
 
 
 export default function Interests() {
@@ -11,7 +10,7 @@ export default function Interests() {
                 <h2 className="text-white text-center mb-5">Stuff I Do</h2>
                 <div className="row">
                     <div className="col-md-3 mb-2 mb-md-0">
-                        <div className="projects bg-light">
+                        <div className="interests bg-light">
                             <div className="img-container">
                                 <img src={cict} alt="Avatar" className="image" />
                                 <div className="overlay">
@@ -26,7 +25,7 @@ export default function Interests() {
                         </div>
                     </div>
                     <div className="col-md-3 mb-2 mb-md-0">
-                        <div className="projects bg-light">
+                        <div className="interests bg-light">
                             <div className="img-container">
                                 <img src={cict} alt="Avatar" className="image" />
                                 <div className="overlay">
@@ -41,7 +40,7 @@ export default function Interests() {
                         </div>
                     </div>
                     <div className="col-md-3 mb-2 mb-md-0">
-                        <div className="projects bg-light">
+                        <div className="interests bg-light">
                             <div className="img-container">
                                 <img src={cict} alt="Avatar" className="image" />
                                 <div className="overlay">
@@ -56,7 +55,7 @@ export default function Interests() {
                         </div>
                     </div>
                     <div className="col-md-3 mb-2 mb-md-0">
-                        <div className="projects bg-light">
+                        <div className="interests bg-light">
                             <div className="img-container">
                                 <img src={cict} alt="Avatar" className="image" />
                                 <div className="overlay">

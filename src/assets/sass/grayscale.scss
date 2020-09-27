@@ -15,7 +15,6 @@
 
 body {
   font-family: 'Nunito';
-  letter-spacing: 0.0625em;
 }
 
 a {
@@ -103,4 +102,28 @@ footer {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.social {
+  margin-top: 1rem;
+  a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: fade-out($white, 0.9);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: fade-out($white, 0.7);
+    &:hover {
+      color: fade-out($white, 0.5);
+    }
+    &:active {
+      color: $white;
+    }
+  }
+}
+.projects{
+  min-height: 400px;
+}
+.publication{
+  min-height: 350px;
 }
