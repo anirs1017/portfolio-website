@@ -3,6 +3,9 @@
   @media (max-width: 600px) {
     padding: 0rem;
   }
+  .leadership-img{
+    width: 600px;
+  }
   .featured-text {
     padding: 2rem;
     @media (min-width: 992px) {
@@ -15,6 +18,12 @@
     font-size: 90%;
     @media (min-width: 992px) {
       padding: 1rem 5rem;
+      a{
+        color: #fff;
+        @media (max-width: 600px) {
+          color: #fff;
+        }
+      }
       hr {
         border-color: $primary;
         border-width: .25rem;

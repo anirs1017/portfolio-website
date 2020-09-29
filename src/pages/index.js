@@ -106,11 +106,11 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white mb-5">Leadership</h4>
-                  <p className="mb-3 text-white-50">
+                <h2 className="text-center text-white mb-5">Leadership</h2>
+                  <p className="mb-3 text-white-100">
                   <a className="" href="https://ieeetu.herokuapp.com/#/" target="_blank" rel="noopener noreferrer" >
                   <div>
-                    <h6> Chairperson, IEEE Student Branch Tezpur University</h6>   
+                    <h5> Chairperson, IEEE Student Branch Tezpur University</h5>   
                     <ul>
                       <li> Looked after the Chapter's management, conducted technical workshops for junior students and organized seminars with esteemed speakers from the industry.</li>
                     </ul>
@@ -119,17 +119,17 @@ const IndexPage = () => (
                     </a>
                   </p>
                  
-                  <p className="mb-3 text-white-50">
+                  <p className="mb-3 text-white-100">
                   <a className="" href="https://www.ted.com/tedx/events/19694" target="_blank" rel="noopener noreferrer" >
-                    <h6> Marketing Event Coordinator, TEDx Tezpur University, TEDx</h6>
+                    <h5> Marketing Event Coordinator, TEDx Tezpur University, TEDx</h5>
                     </a>
                   </p>
-                  <p className="mb-3 text-white-50">
+                  <p className="mb-3 text-white-100">
                   <a className="" href="https://drive.google.com/file/d/1VebNcirOsP6cRzeoSVXiz0w4q1HvRBAa/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
                    <div>
-                     <h6>
+                     <h5>
                     Co-Founder, SCRIPTURE, Tezpur University
-                     </h6>
+                     </h5>
                     <ul>
                       <li>Started our college’s first technical e-magazine, SCRIPTURE and led a team of three designers for its design in the first two editions</li>
                     </ul>
@@ -144,17 +144,17 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid leadership-img" src={demoImage2} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white mb-5">Volunteering</h4>
-                  <p className="mb-3 text-white-50">
+                <h2 className="text-center text-white mb-5">Volunteering</h2>
+                  <p className="mb-3 text-white-100">
                   <a className="" href="https://www.linkedin.com/company/american-red-cross/" target="_blank" rel="noopener noreferrer" >
                   <div>
-                    <h6>Community Volunteer, American Red Cross</h6>
+                    <h5>Community Volunteer, American Red Cross</h5>
                
                     <ul>
                       <li>Working in the BioMed Scheduling team to encourage the community for Blood Donation Drives and also expand Red Cross Volunteer base in the region.</li>
@@ -162,17 +162,17 @@ const IndexPage = () => (
                     </div>              
                     </a>
                   </p>
-                  <p className="mb-3 text-white-50">
+                  <p className="mb-3 text-white-100">
                   <a className="" href="https://www.linkedin.com/company/manning-publications-co/" target="_blank" rel="noopener noreferrer" >
-                   <h6>Project Implementation Specialist, Manning Publications Co.</h6> 
+                   <h5>Project Implementation Specialist, Manning Publications Co.</h5> 
                     </a>
                   </p>
-                  <p className="mb-3 text-white-50">
+                  <p className="mb-3 text-white-100">
                   <a className="" href="https://www.linkedin.com/company/national-service-scheme/" target="_blank" rel="noopener noreferrer" >
                   <div>
-                    <h6>
+                    <h5>
                   Co Organizer, National Service Scheme
-                    </h6>
+                    </h5>
                     <ul>
                       <li>Co-organized a Blood Donation Drive on campus inviting the Tezpur University fraternity to donate blood for a social cause.</li>
                     </ul>

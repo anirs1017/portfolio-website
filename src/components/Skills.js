@@ -50,6 +50,7 @@ export default function Skills() {
                             <h5 className="card-title">Tools</h5>
                             <ul className="list-group">
                                 <li className="list-group-item">AWS</li>
+                                <li className="list-group-item">Elastic Search</li>
                                 <li className="list-group-item">Docker</li>
                                 <li className="list-group-item">GIT</li>
                                 <li className="list-group-item">Apache Spark</li>

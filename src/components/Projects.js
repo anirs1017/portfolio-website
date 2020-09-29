@@ -28,9 +28,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://github.com/aniruddhasinha10/COVID-19-Tracker-Early-2020" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={one} alt="Card image cap" />
-                        </div>
-                            <h4>COVID-19 Cases Tracker, early 2020</h4>
+                                <img className="project-img-top" src={one} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">COVID-19 Cases Tracker, early 2020</h4>
                             <h6>Skills: Python, Pandas, OpenBlender</h6>
                             <div>
                                 <ul>
@@ -44,9 +44,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://github.com/aniruddhasinha10/Maritime_Depth_Perception_Object_Detection" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={two} alt="Card image cap" />
-                        </div>
-                            <h4>Maritime Vehicle System Data Analysis</h4>
+                                <img className="project-img-top" src={two} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">Maritime Vehicle System Data Analysis</h4>
                             <h6>Skills: Python, OpenCV, Keras</h6>
                             <div>
                                 <ul>
@@ -60,9 +60,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://github.com/aniruddhasinha10/Find-Most-Similar-Movies" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={three} alt="Card image cap" />
-                        </div>
-                            <h4>Movie Recommendation System</h4>
+                                <img className="project-img-top" src={three} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">Movie Recommendation System</h4>
                             <h6>Skills: Apache Spark, SQL, AWS EMR</h6>
                             <div>
                                 <ul>
@@ -75,9 +75,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://www.youtube.com/watch?v=impFMKH6EW4" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={four} alt="Card image cap" />
-                        </div>
-                            <h4>An IoT based Wearable Health Monitoring and Messaging System</h4>
+                                <img className="project-img-top" src={four} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">An IoT based Wearable Health Monitoring and Messaging System</h4>
                             <h6>Skills: C, Arduino Nano, Google Fusion Tables, MIT App Inventor 2</h6>
                             <div>
                                 <ul>
@@ -91,9 +91,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={five} alt="Card image cap" />
-                        </div>
-                            <h4>User Preference Analysis on a Streaming Platform</h4>
+                                <img className="project-img-top" src={five} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">User Preference Analysis on a Streaming Platform</h4>
                             <h6>Skills: Python3, PyTorch, Pandas</h6>
                             <div>
                                 <ul>
@@ -107,9 +107,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://github.com/aniruddhasinha10/U.S.Politics_Trends2019_CSE587_DIC" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={six} alt="Card image cap" />
-                        </div>
-                            <h4>Big Data Analytics of US Politics, early 2019</h4>
+                                <img className="project-img-top" src={six} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">Big Data Analytics of US Politics, early 2019</h4>
                             <h6>Skills: R, Python, AWS(EMR & EC2), Hadoop HDFS, Tableau</h6>
                             <div>
                                 <ul>
@@ -123,9 +123,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://github.com/aniruddhasinha10/U.S.Flu_Exploratory_Data_Analysis_CSE587_DIC" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={seven} alt="Card image cap" />
-                        </div>
-                            <h4>U.S. Flu EDA, 2018-19 </h4>
+                                <img className="project-img-top" src={seven} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">U.S. Flu EDA, 2018-19 </h4>
                             <h6>Skills: R, Python, Tableau, Twitter API</h6>
                             <div>
                                 <ul>
@@ -138,9 +138,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://github.com/aniruddhasinha10/ImageQuantization_KMeans__ImageStitching" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={eight} alt="Card image cap" />
-                        </div>
-                            <h4>Image Quantization and Keypoint Detection using SIFT</h4>
+                                <img className="project-img-top" src={eight} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">Image Quantization and Keypoint Detection using SIFT</h4>
                             <h6>Skills: Python, OpenCV</h6>
                             <div>
                                 <ul>
@@ -154,9 +154,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://github.com/aniruddhasinha10/ROS_GridLocalization_BayesFilter_CSE568" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={nine} alt="Card image cap" />
-                        </div>
-                            <h4>Localization and Global Planning of Robots</h4>
+                                <img className="project-img-top" src={nine} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">Localization and Global Planning of Robots</h4>
                             <h6>Skills: Python, ROS </h6>
                             <div>
                                 <ul>
@@ -169,9 +169,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://github.com/aniruddhasinha10/Reinforcement-Learning---Tom-n-Jerry" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={ten} alt="Card image cap" />
-                        </div>
-                            <h4>Agent Navigation using Reinforcement Learning</h4>
+                                <img className="project-img-top" src={ten} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">Agent Navigation using Reinforcement Learning</h4>
                             <h6>Skills: Python, Scikit Learns, Keras</h6>
                             <div>
                                 <ul>
@@ -183,14 +183,14 @@ export default function Projects() {
                     <div className="col-md-4 p-3 ">
                         <div className="projects bg-light p-4">
                             <a className="link" href="" target="_blank" rel="noopener noreferrer" />
-                            
                             <div className="card-img-container">
-                            <img className="project-img-top" src={eleven} alt="Card image cap" />
-                        </div><h4>Classifying Customer Behavior using Machine Learning</h4>
+                                <img className="project-img-top" src={eleven} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">Classifying Customer Behavior using Machine Learning</h4>
                             <h6>Skills: R</h6>
                             <div>
                                 <ul>
-                                    <li>Implemented Support Vector Machines, Decision Trees, Naive Bayes and Random Forest Classifier Models to classify customer behavior in a Social Network Ad dataset and predict the prospective buyers of the product advertised. Tuned the hyper-parameters using Grid Search and accuracies achieved wereS VM - 94%, Decision Trees - 92%, Naive Bayes - 90%, Random Forest Classier- 92%.</li>
+                                    <li>Implemented Support Vector Machines, Decision Trees, Naive Bayes and Random Forest Classifier Models to classify customer behavior in a Social Network Ad dataset and predict the prospective buyers of the product advertised.</li>
                                     <li>Also tuned the Decision Tree Classier with XGBoost to achieve accuracy of 96%.</li>
                                 </ul>
                             </div>
@@ -200,9 +200,9 @@ export default function Projects() {
                         <div className="projects bg-light p-4">
                             <a className="link" href="https://www.youtube.com/watch?v=KsNNaFW1YeA" target="_blank" rel="noopener noreferrer" />
                             <div className="card-img-container">
-                            <img className="project-img-top" src={twelve} alt="Card image cap" />
-                        </div>
-                            <h4>Smart Appliance Control with IoT</h4>
+                                <img className="project-img-top" src={twelve} alt="Card image cap" />
+                            </div>
+                            <h4 className="text-center">Smart Appliance Control with IoT</h4>
                             <h6>Skills: C, Linux, Raspberry Pi, MQTT Paho, nodeMCU, Humidity & Motion Sensors</h6>
                             <div>
                                 <ul>

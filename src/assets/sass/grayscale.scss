@@ -127,7 +127,7 @@ hr {
   width: 80%;
 }
 .projects{
-  min-height: 540px;
+  min-height: 500px;
 }
 .publication{
   min-height: 370px;
@@ -154,8 +154,12 @@ hr {
 }
 h5, h4 {
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
-h6 {
+.projects h6 {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+.experience h6 {
   font-style: italic;
 }
