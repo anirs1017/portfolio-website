@@ -10,27 +10,7 @@ export default function Recommendation() {
             <div className="container-fluid">
                 <h2 className="text-white text-center mb-5">Recommendations</h2>
                 <div className="card-deck p-2">
-                    <div className="card m-4">
-                        <div className="card-img-container">
-                            <img className="card-img-top" src={kalyani} alt="Card image cap" />
-                        </div>
-                        <div className="card-body">
-                            <h5 className="card-title text-center">Kalyani Kaushik</h5>
-                            <h6 className="card-text text-center">Product Engineer at Cummins India Ltd</h6>
-                            <p className="card-text">
-                                <ReadMoreAndLess
-                                    className="read-more-content"
-                                    charLimit={250}
-                                    readMoreText="Read more"
-                                    readLessText="Read less"
-                                >
-                                    "It's not everyday that we come across a rare talent like Aniruddha. I have known Aniruddha for 7 years now and was closely associated with him during our undergraduate years at Tezpur University. Something that made Aniruddha stand out was that he never missed an opportunity to collaborate with students beyond his discipline which is infact how we became friends. We worked together as co-founders of Scripture, the first technical e-magazine of School of Engineering where he put in tremendous efforts to reach out to people across disciplines for publishing the same. Aniruddha also believes that it's important to uplift and develop the people around him which is why he spent many college weekends in organising workshops for technical skills enhancement not just for his juniors but also for children of the neighboring villages. Aniruddha also has commendable interpersonal skills and it was always a delight to learn from him. Aniruddha earns my highest recommendation; he would be an indispensable asset to any organization he works in."
-                            </ReadMoreAndLess>
-                            </p>
-                            <p className="card-text"></p>
-                        </div>
-                    </div>
-                    <div className="card m-4">
+                <div className="card m-4">
                         <div className="card-img-container">
                             <img className="card-img-top" src={david} alt="Card image cap" />
                         </div>
@@ -53,6 +33,27 @@ export default function Recommendation() {
                             </p>
                         </div>
                     </div>
+                    <div className="card m-4">
+                        <div className="card-img-container">
+                            <img className="card-img-top" src={kalyani} alt="Card image cap" />
+                        </div>
+                        <div className="card-body">
+                            <h5 className="card-title text-center">Kalyani Kaushik</h5>
+                            <h6 className="card-text text-center">Product Engineer at Cummins India Ltd</h6>
+                            <p className="card-text">
+                                <ReadMoreAndLess
+                                    className="read-more-content"
+                                    charLimit={250}
+                                    readMoreText="Read more"
+                                    readLessText="Read less"
+                                >
+                                    "It's not everyday that we come across a rare talent like Aniruddha. I have known Aniruddha for 7 years now and was closely associated with him during our undergraduate years at Tezpur University. Something that made Aniruddha stand out was that he never missed an opportunity to collaborate with students beyond his discipline which is infact how we became friends. We worked together as co-founders of Scripture, the first technical e-magazine of School of Engineering where he put in tremendous efforts to reach out to people across disciplines for publishing the same. Aniruddha also believes that it's important to uplift and develop the people around him which is why he spent many college weekends in organising workshops for technical skills enhancement not just for his juniors but also for children of the neighboring villages. Aniruddha also has commendable interpersonal skills and it was always a delight to learn from him. Aniruddha earns my highest recommendation; he would be an indispensable asset to any organization he works in."
+                            </ReadMoreAndLess>
+                            </p>
+                            <p className="card-text"></p>
+                        </div>
+                    </div>
+                    
                     <div className="card m-4">
                         <div className="card-img-container">
                             <img className="card-img-top" src={shubham} alt="Card image cap" />

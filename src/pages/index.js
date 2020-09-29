@@ -42,7 +42,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      {/* <hr className="my-4" /> */}
+      <hr className="my-4" />
     </header>
   
     <section id="about" className="about-section bg-black">
