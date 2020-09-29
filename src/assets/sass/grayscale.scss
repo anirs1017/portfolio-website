@@ -8,15 +8,14 @@
 @import 'projects.scss';
 @import 'signup.scss';
 @import 'contact.scss';
-
 @import './fontawesome/css/all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
 
 body {
   font-family: 'Nunito';
+  line-height: 1.4 !important;
 }
-
 a {
   color: $primary;
   &:focus,
@@ -68,7 +67,7 @@ footer {
 }
 
 .img-container:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .text {
@@ -121,9 +120,42 @@ footer {
     }
   }
 }
+hr {
+  background-color: #000000;
+  border-color: $primary;
+  border-width: 0.1rem;
+  width: 80%;
+}
 .projects{
-  min-height: 400px;
+  min-height: 540px;
 }
 .publication{
-  min-height: 350px;
+  min-height: 370px;
+}
+
+.card-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  .card-img-top{
+    width: 120px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .project-img-top{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+h5, h4 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+h6 {
+  font-style: italic;
 }

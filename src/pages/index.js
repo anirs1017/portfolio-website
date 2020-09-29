@@ -42,19 +42,20 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+      {/* <hr className="my-4" /> */}
     </header>
-
+  
     <section id="about" className="about-section bg-black">
       <div className="container-fluid">
         <h2 className="text-white mb-4 text-center">About me</h2>
         <div className="card bg-black">
           <div className="row no-gutters">
-            <div className="col-md-4">
+            <div className="col-md-4 py-4">
               <img src={profile} className="card-img" alt="..." />
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h4 className="text-white-50 mb-1">Hello!</h4>
+                <h4 className="text-white-50 mb-0">Hello!</h4>
                 <p className="text-white-50 mb-2">
                   I am a Software Developer with a curious mind and deep interest in the areas of Artificial Intelligence, Internet of Things, Web Development and Augmented Reality. I graduated with a Masters in Computer Science, specializing in Artificial Intelligence from the University at Buffalo (SUNY), New York in February, 2020. Based in Buffalo, I am actively looking to move into a Full-time Software Developer role at a product based company to augment my current technical skills.
                 </p>
@@ -64,19 +65,19 @@ const IndexPage = () => (
                 <p className="text-white-50 mb-2">
                   I am an adaptable professional and enjoy multi-tasking. I also love to teach. Over the course of my career, I have developed proven analytical, organizational, and research skills, which I hope to put to use in my future roles and responsibilities.
                   </p>
-                <p className="text-white-50 mb-4">
+                <p className="text-white-50 mb-2">
                   In my free time, I like to cook, drive and travel to new and unexplored places. Photography is a very dear passion to me that has always helped me in connecting with people and exploring new cultures, giving me an opportunity to learn so much from every such interaction.
               </p>
                 <div className="container mb-5">
-                  <div className="row mb-3">
+                  <div className="row mb-2">
                     <div className="col-3 text-white-50">Name :</div>
                     <div className="col-9 text-white-50">{config.heading}</div>
                   </div>
-                  <div className="row mb-3">
+                  <div className="row mb-2">
                     <div className="col-3 text-white-50">Email :</div>
                     <div className="col-9 text-white-50">{config.email}</div>
                   </div>
-                  <div className="row mb-4">
+                  <div className="row mb-2">
                     <div className="col-3 text-white-50">Phone :</div>
                     <div className="col-9 text-white-50">{config.phone}</div>
                   </div>
@@ -88,12 +89,15 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+   
     <Skills />
     <Experience />
+   
     <Projects />
+   
     <Publication />
     <section id="leadership" className="projects-section bg-black">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
             <img className="img-fluid" src={demoImage1} alt="" />
@@ -104,15 +108,34 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white mb-5">Leadership</h4>
                   <p className="mb-3 text-white-50">
-                    Chairperson, IEEE Student Branch Tezpur University
+                  <a className="" href="https://ieeetu.herokuapp.com/#/" target="_blank" rel="noopener noreferrer" >
+                  <div>
+                    <h6> Chairperson, IEEE Student Branch Tezpur University</h6>   
+                    <ul>
+                      <li> Looked after the Chapter's management, conducted technical workshops for junior students and organized seminars with esteemed speakers from the industry.</li>
+                    </ul>
+                    </div>
+                    
+                    </a>
+                  </p>
+                 
+                  <p className="mb-3 text-white-50">
+                  <a className="" href="https://www.ted.com/tedx/events/19694" target="_blank" rel="noopener noreferrer" >
+                    <h6> Marketing Event Coordinator, TEDx Tezpur University, TEDx</h6>
+                    </a>
                   </p>
                   <p className="mb-3 text-white-50">
-                    Marketing Event Coordinator, TEDx Tezpur University, TEDx
-                  </p>
-                  <p className="mb-3 text-white-50">
+                  <a className="" href="https://drive.google.com/file/d/1VebNcirOsP6cRzeoSVXiz0w4q1HvRBAa/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+                   <div>
+                     <h6>
                     Co-Founder, SCRIPTURE, Tezpur University
+                     </h6>
+                    <ul>
+                      <li>Started our college’s first technical e-magazine, SCRIPTURE and led a team of three designers for its design in the first two editions</li>
+                    </ul>
+                    </div>
+                    </a>
                   </p>
-                  {/* <hr className="d-none d-lg-block mb-0 ml-0" /> */}
                 </div>
               </div>
             </div>
@@ -129,15 +152,34 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white mb-5">Volunteering</h4>
                   <p className="mb-3 text-white-50">
-                    Community Volunteer, American Red Cross
+                  <a className="" href="https://www.linkedin.com/company/american-red-cross/" target="_blank" rel="noopener noreferrer" >
+                  <div>
+                    <h6>Community Volunteer, American Red Cross</h6>
+               
+                    <ul>
+                      <li>Working in the BioMed Scheduling team to encourage the community for Blood Donation Drives and also expand Red Cross Volunteer base in the region.</li>
+                    </ul>
+                    </div>              
+                    </a>
                   </p>
                   <p className="mb-3 text-white-50">
-                    Project Implementation Specialist, Manning Publications Co.
+                  <a className="" href="https://www.linkedin.com/company/manning-publications-co/" target="_blank" rel="noopener noreferrer" >
+                   <h6>Project Implementation Specialist, Manning Publications Co.</h6> 
+                    </a>
                   </p>
                   <p className="mb-3 text-white-50">
-                    Co Organizer, National Service Scheme
+                  <a className="" href="https://www.linkedin.com/company/national-service-scheme/" target="_blank" rel="noopener noreferrer" >
+                  <div>
+                    <h6>
+                  Co Organizer, National Service Scheme
+                    </h6>
+                    <ul>
+                      <li>Co-organized a Blood Donation Drive on campus inviting the Tezpur University fraternity to donate blood for a social cause.</li>
+                    </ul>
+                    </div> 
+                   
+                    </a>
                   </p>
-                  {/* <hr className="d-none d-lg-block mb-0 mr-0" /> */}
                 </div>
               </div>
             </div>
@@ -145,10 +187,12 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
+    
     {/* <Subscribe /> */}
     <Interests />
+    
     <Recommendation />
+    
     <SocialLinks />
     <Footer />
   </Layout>

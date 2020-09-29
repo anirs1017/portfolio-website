@@ -1,5 +1,8 @@
 import React from 'react';
-import cict from '../assets/images/CICT-paper.jpg';
+import code from '../assets/images/code.jpg';
+import cook from '../assets/images/cook.jpg';
+import travel from '../assets/images/travel.jpg';
+import photography from '../assets/images/photography.jpg';
 
 
 
@@ -12,12 +15,11 @@ export default function Interests() {
                     <div className="col-md-3 mb-2 mb-md-0">
                         <div className="interests bg-light">
                             <div className="img-container">
-                                <img src={cict} alt="Avatar" className="image" />
+                                <img src={code} alt="Avatar" className="image" />
                                 <div className="overlay">
                                     <a className="link" href="" target="_blank" rel="noopener noreferrer" >
                                         <div className="interest-text">
                                             <h4>Code</h4>
-                                           
                                         </div>
                                     </a>
                                 </div>
@@ -27,12 +29,11 @@ export default function Interests() {
                     <div className="col-md-3 mb-2 mb-md-0">
                         <div className="interests bg-light">
                             <div className="img-container">
-                                <img src={cict} alt="Avatar" className="image" />
+                                <img src={travel} alt="Avatar" className="image" />
                                 <div className="overlay">
                                     <a className="link" href="" target="_blank" rel="noopener noreferrer" >
                                         <div className="interest-text">
                                             <h4>Travel</h4>
-                                            
                                         </div>
                                     </a>
                                 </div>
@@ -42,12 +43,11 @@ export default function Interests() {
                     <div className="col-md-3 mb-2 mb-md-0">
                         <div className="interests bg-light">
                             <div className="img-container">
-                                <img src={cict} alt="Avatar" className="image" />
+                                <img src={cook} alt="Avatar" className="image" />
                                 <div className="overlay">
                                     <a className="link" href="" target="_blank" rel="noopener noreferrer" >
                                         <div className="interest-text">
                                             <h4>Cooking</h4>
-                                            
                                         </div>
                                     </a>
                                 </div>
@@ -57,12 +57,11 @@ export default function Interests() {
                     <div className="col-md-3 mb-2 mb-md-0">
                         <div className="interests bg-light">
                             <div className="img-container">
-                                <img src={cict} alt="Avatar" className="image" />
+                                <img src={photography} alt="Avatar" className="image" />
                                 <div className="overlay">
                                     <a className="link" href="" target="_blank" rel="noopener noreferrer" >
                                         <div className="interest-text">
                                             <h4>Photography</h4>
-                                            
                                         </div>
                                     </a>
                                 </div>

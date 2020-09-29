@@ -1,5 +1,8 @@
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 6rem 4rem;
+  @media (max-width: 600px) {
+    padding: 0rem;
+  }
   .card {
     border: 0;
     border-bottom: 0.25rem solid $primary;
