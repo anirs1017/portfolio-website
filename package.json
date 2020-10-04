@@ -23,6 +23,8 @@
     "react-images": "^1.1.0",
     "react-read-more-less": "^0.1.6",
     "react-scrollspy": "^3.4.0",
+    "react-slick": "^0.27.11",
+    "slick-carousel": "^1.8.1",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {

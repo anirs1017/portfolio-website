@@ -17,7 +17,6 @@ import Interests from '../components/Interests';
 const IndexPage = () => (
   <Layout>
     <Header />
-
     <header className="masthead">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
@@ -42,14 +41,13 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <hr className="my-4" />
-    </header>
-  
+      <hr />
+    </header> 
     <section id="about" className="about-section bg-black">
-      <div className="container-fluid">
+      <div className="container-fluid bg-black">
         <h2 className="text-white mb-4 text-center">About me</h2>
-        <div className="card bg-black">
-          <div className="row no-gutters">
+        <div className="card bg-black ">
+          <div className="row no-gutters mb-5 bg-black">
             <div className="col-md-4 py-4">
               <img src={profile} className="card-img" alt="..." />
             </div>
@@ -85,16 +83,13 @@ const IndexPage = () => (
                 <h3 className="text-white-50 mx-auto mt-2 mb-5">1.6+ years of Work Experience</h3>
               </div>
             </div>
-          </div>
+          </div>    
         </div>
       </div>
-    </section>
-   
+    </section> 
     <Skills />
-    <Experience />
-   
-    <Projects />
-   
+    <Experience /> 
+    <Projects /> 
     <Publication />
     <section id="leadership" className="projects-section bg-black">
       <div className="container-fluid">
@@ -114,11 +109,9 @@ const IndexPage = () => (
                     <ul>
                       <li> Looked after the Chapter's management, conducted technical workshops for junior students and organized seminars with esteemed speakers from the industry.</li>
                     </ul>
-                    </div>
-                    
+                    </div>                  
                     </a>
-                  </p>
-                 
+                  </p>              
                   <p className="mb-3 text-white-100">
                   <a className="" href="https://www.ted.com/tedx/events/19694" target="_blank" rel="noopener noreferrer" >
                     <h5> Marketing Event Coordinator, TEDx Tezpur University, TEDx</h5>
@@ -141,7 +134,6 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
             <img className="img-fluid leadership-img" src={demoImage2} alt="" />
@@ -154,8 +146,7 @@ const IndexPage = () => (
                   <p className="mb-3 text-white-100">
                   <a className="" href="https://www.linkedin.com/company/american-red-cross/" target="_blank" rel="noopener noreferrer" >
                   <div>
-                    <h5>Community Volunteer, American Red Cross</h5>
-               
+                    <h5>Community Volunteer, American Red Cross</h5>             
                     <ul>
                       <li>Working in the BioMed Scheduling team to encourage the community for Blood Donation Drives and also expand Red Cross Volunteer base in the region.</li>
                     </ul>
@@ -176,8 +167,7 @@ const IndexPage = () => (
                     <ul>
                       <li>Co-organized a Blood Donation Drive on campus inviting the Tezpur University fraternity to donate blood for a social cause.</li>
                     </ul>
-                    </div> 
-                   
+                    </div>                   
                     </a>
                   </p>
                 </div>
@@ -186,13 +176,11 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
-    
+      <hr />
+    </section>  
     {/* <Subscribe /> */}
-    <Interests />
-    
-    <Recommendation />
-    
+    <Interests />  
+    <Recommendation />   
     <SocialLinks />
     <Footer />
   </Layout>

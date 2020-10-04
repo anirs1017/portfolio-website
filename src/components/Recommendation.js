@@ -3,14 +3,18 @@ import ReadMoreAndLess from 'react-read-more-less';
 import kalyani from '../assets/images/kalyani.jpg';
 import david from '../assets/images/david.jpg';
 import shubham from '../assets/images/shubham.jpg';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Recommendation() {
     return (
         <section className="contact-section bg-black" id="recommendation">
             <div className="container-fluid">
                 <h2 className="text-white text-center mb-5">Recommendations</h2>
-                <div className="card-deck p-2">
-                <div className="card m-4">
+                <Slider>
+                    <div>
+                    <div className="card m-4">
                         <div className="card-img-container">
                             <img className="card-img-top" src={david} alt="Card image cap" />
                         </div>
@@ -32,7 +36,9 @@ export default function Recommendation() {
                             </ReadMoreAndLess>
                             </p>
                         </div>
+                        </div>
                     </div>
+                    <div>
                     <div className="card m-4">
                         <div className="card-img-container">
                             <img className="card-img-top" src={kalyani} alt="Card image cap" />
@@ -50,10 +56,10 @@ export default function Recommendation() {
                                     "It's not everyday that we come across a rare talent like Aniruddha. I have known Aniruddha for 7 years now and was closely associated with him during our undergraduate years at Tezpur University. Something that made Aniruddha stand out was that he never missed an opportunity to collaborate with students beyond his discipline which is infact how we became friends. We worked together as co-founders of Scripture, the first technical e-magazine of School of Engineering where he put in tremendous efforts to reach out to people across disciplines for publishing the same. Aniruddha also believes that it's important to uplift and develop the people around him which is why he spent many college weekends in organising workshops for technical skills enhancement not just for his juniors but also for children of the neighboring villages. Aniruddha also has commendable interpersonal skills and it was always a delight to learn from him. Aniruddha earns my highest recommendation; he would be an indispensable asset to any organization he works in."
                             </ReadMoreAndLess>
                             </p>
-                            <p className="card-text"></p>
+                        </div>
                         </div>
                     </div>
-                    
+                    <div>
                     <div className="card m-4">
                         <div className="card-img-container">
                             <img className="card-img-top" src={shubham} alt="Card image cap" />
@@ -73,9 +79,11 @@ export default function Recommendation() {
                             </ReadMoreAndLess>
                             </p>
                         </div>
+                        </div>
                     </div>
-                </div>
+                </Slider>
             </div>
+            <hr />
         </section>
     );
 }

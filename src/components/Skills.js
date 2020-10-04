@@ -3,7 +3,7 @@ import React from 'react';
 export default function Skills() {
     return (
         <section className="contact-section bg-black" id="skills">
-            <div className="text-center container-fluid">
+            <div className="text-center container-fluid mb-5">
                 <h2 className="text-white mb-5">My Skills</h2>
                 <div className="row">
                     <div className="col-md-3 mb-2 mb-md-0">
@@ -63,6 +63,7 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
+            <hr />
         </section>
     );
 }

@@ -75,6 +75,7 @@ export default function Publication() {
                    
                 </div>
             </div>
+            <hr />
         </section>
     );
 }
