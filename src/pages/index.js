@@ -25,15 +25,15 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           <div className="social mb-5 d-flex justify-content-center">
-          {config.socialLinks.map(social => {
-            const { icon, url } = social;
-            return (
-              <a key={url} href={url} className={`mx-2`} target="_blank">
-                <i className={`fab ${icon}`}></i>
-              </a>
-            );
-          })}
-        </div>
+            {config.socialLinks.map(social => {
+              const { icon, url } = social;
+              return (
+                <a key={url} href={url} className={`mx-2`} target="_blank">
+                  <i className={`fab ${icon}`}></i>
+                </a>
+              );
+            })}
+          </div>
           <div>
             <a href="https://drive.google.com/file/d/1FVmjo5xYdlQaeAt-buu23OvaUH20YhN9/view?usp=sharing" className="btn btn-primary" target="_blank">
               Download Resume
@@ -42,7 +42,7 @@ const IndexPage = () => (
         </div>
       </div>
       <hr />
-    </header> 
+    </header>
     <section id="about" className="about-section bg-black">
       <div className="container-fluid bg-black">
         <h2 className="text-white mb-4 text-center">About me</h2>
@@ -83,13 +83,13 @@ const IndexPage = () => (
                 <h3 className="text-white-50 mx-auto mt-2 mb-5">1.6+ years of Work Experience</h3>
               </div>
             </div>
-          </div>    
+          </div>
         </div>
       </div>
-    </section> 
+    </section>
     <Skills />
-    <Experience /> 
-    <Projects /> 
+    <Experience />
+    <Projects />
     <Publication />
     <section id="leadership" className="projects-section bg-black">
       <div className="container-fluid">
@@ -101,32 +101,35 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                <h2 className="text-center text-white mb-5">Leadership</h2>
+                  <h2 className="text-center text-white mb-5">Leadership</h2>
                   <p className="mb-3 text-white-100">
-                  <a className="" href="https://ieeetu.herokuapp.com/#/" target="_blank" rel="noopener noreferrer" >
-                  <div>
-                    <h5> Chairperson, IEEE Student Branch Tezpur University</h5>   
-                    <ul>
-                      <li> Looked after the Chapter's management, conducted technical workshops for junior students and organized seminars with esteemed speakers from the industry.</li>
-                    </ul>
-                    </div>                  
-                    </a>
-                  </p>              
-                  <p className="mb-3 text-white-100">
-                  <a className="" href="https://www.ted.com/tedx/events/19694" target="_blank" rel="noopener noreferrer" >
-                    <h5> Marketing Event Coordinator, TEDx Tezpur University, TEDx</h5>
+                    <a className="" href="https://ieeetu.herokuapp.com/#/" target="_blank" rel="noopener noreferrer" >
+                      <div>
+                        <h5> Chairperson, IEEE Student Branch Tezpur University</h5>
+                        <h6>Jan 2016 – Jan 2017</h6>
+                        <ul>
+                          <li> Looked after the Chapter's management, conducted technical workshops for junior students and organized seminars with esteemed speakers from the industry.</li>
+                        </ul>
+                      </div>
                     </a>
                   </p>
                   <p className="mb-3 text-white-100">
-                  <a className="" href="https://drive.google.com/file/d/1VebNcirOsP6cRzeoSVXiz0w4q1HvRBAa/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
-                   <div>
-                     <h5>
-                    Co-Founder, SCRIPTURE, Tezpur University
+                    <a className="" href="https://www.ted.com/tedx/events/19694" target="_blank" rel="noopener noreferrer" >
+                      <h5> Marketing Event Coordinator, TEDx Tezpur University, TEDx</h5>
+                      <h6>May 2016 – Aug 2016</h6>
+                    </a>
+                  </p>
+                  <p className="mb-3 text-white-100">
+                    <a className="" href="https://drive.google.com/file/d/1VebNcirOsP6cRzeoSVXiz0w4q1HvRBAa/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+                      <div>
+                        <h5>
+                          Co-Founder, SCRIPTURE, Tezpur University
                      </h5>
-                    <ul>
-                      <li>Started our college’s first technical e-magazine, SCRIPTURE and led a team of three designers for its design in the first two editions</li>
-                    </ul>
-                    </div>
+                        <h6>Feb 2014 – May 2015</h6>
+                        <ul>
+                          <li>Started our college’s first technical e-magazine, SCRIPTURE and led a team of three designers for its design in the first two editions</li>
+                        </ul>
+                      </div>
                     </a>
                   </p>
                 </div>
@@ -142,32 +145,35 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                <h2 className="text-center text-white mb-5">Volunteering</h2>
+                  <h2 className="text-center text-white mb-5">Volunteering</h2>
                   <p className="mb-3 text-white-100">
-                  <a className="" href="https://www.linkedin.com/company/american-red-cross/" target="_blank" rel="noopener noreferrer" >
-                  <div>
-                    <h5>Community Volunteer, American Red Cross</h5>             
-                    <ul>
-                      <li>Working in the BioMed Scheduling team to encourage the community for Blood Donation Drives and also expand Red Cross Volunteer base in the region.</li>
-                    </ul>
-                    </div>              
+                    <a className="" href="https://www.linkedin.com/company/american-red-cross/" target="_blank" rel="noopener noreferrer" >
+                      <div>
+                        <h5>Community Volunteer, American Red Cross</h5>
+                        <h6>Sep 2020 – Present </h6>
+                        <ul>
+                          <li>Working in the BioMed Scheduling team to encourage the community for Blood Donation Drives and also expand Red Cross Volunteer base in the region.</li>
+                        </ul>
+                      </div>
                     </a>
                   </p>
                   <p className="mb-3 text-white-100">
-                  <a className="" href="https://www.linkedin.com/company/manning-publications-co/" target="_blank" rel="noopener noreferrer" >
-                   <h5>Project Implementation Specialist, Manning Publications Co.</h5> 
+                    <a className="" href="https://www.linkedin.com/company/manning-publications-co/" target="_blank" rel="noopener noreferrer" >
+                      <h5>Project Implementation Specialist, Manning Publications Co.</h5>
+                      <h6>Aug 2020 – Present</h6>
                     </a>
                   </p>
                   <p className="mb-3 text-white-100">
-                  <a className="" href="https://www.linkedin.com/company/national-service-scheme/" target="_blank" rel="noopener noreferrer" >
-                  <div>
-                    <h5>
-                  Co Organizer, National Service Scheme
+                    <a className="" href="https://www.linkedin.com/company/national-service-scheme/" target="_blank" rel="noopener noreferrer" >
+                      <div>
+                        <h5>
+                          Co Organizer, National Service Scheme
                     </h5>
-                    <ul>
-                      <li>Co-organized a Blood Donation Drive on campus inviting the Tezpur University fraternity to donate blood for a social cause.</li>
-                    </ul>
-                    </div>                   
+                        <h6>Apr 2015 – May 2016</h6>
+                        <ul>
+                          <li>Co-organized a Blood Donation Drive on campus inviting the Tezpur University fraternity to donate blood for a social cause.</li>
+                        </ul>
+                      </div>
                     </a>
                   </p>
                 </div>
@@ -177,10 +183,10 @@ const IndexPage = () => (
         </div>
       </div>
       <hr />
-    </section>  
+    </section>
     {/* <Subscribe /> */}
-    <Interests />  
-    <Recommendation />   
+    <Interests />
+    <Recommendation />
     <SocialLinks />
     <Footer />
   </Layout>

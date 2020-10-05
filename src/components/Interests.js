@@ -22,7 +22,7 @@ export default function Interests() {
                                 <div className="overlay">
                                     <a className="link" href="" target="_blank" rel="noopener noreferrer" >
                                         <div className="interest-text">
-                                            <h4>Code</h4>
+                                            <h1>Code</h1>
                                         </div>
                                     </a>
                                 </div>
@@ -36,7 +36,7 @@ export default function Interests() {
                                 <div className="overlay">
                                     <a className="link" href="" target="_blank" rel="noopener noreferrer" >
                                         <div className="interest-text">
-                                            <h4>Travel</h4>
+                                            <h1>Travel</h1>
                                         </div>
                                     </a>
                                 </div>
@@ -50,7 +50,7 @@ export default function Interests() {
                                 <div className="overlay">
                                     <a className="link" href="" target="_blank" rel="noopener noreferrer" >
                                         <div className="interest-text">
-                                            <h4>Cooking</h4>
+                                            <h1>Cooking</h1>
                                         </div>
                                     </a>
                                 </div>
@@ -64,7 +64,7 @@ export default function Interests() {
                                 <div className="overlay">
                                     <a className="link" href="" target="_blank" rel="noopener noreferrer" >
                                         <div className="interest-text">
-                                            <h4>Photography</h4>
+                                            <h1>Photography</h1>
                                         </div>
                                     </a>
                                 </div>
