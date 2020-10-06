@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Recommendation() {
     return (
         <section className="contact-section bg-black" id="recommendation">
-            <div className="container-fluid">
+            <div className="container">
                 <h2 className="text-white text-center mb-5">Recommendations</h2>
                 <Slider>
                     <div>
